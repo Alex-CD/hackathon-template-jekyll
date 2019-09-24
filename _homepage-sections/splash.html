@@ -1,7 +1,7 @@
 <section class="full-height" id="top">
-    <div class="jumbotron jumbotron-fluid background-image full-height">
-        <h1 class="display-1 text-light">Royal Hackaway</h1>
-        <h2 class=" text-light">What will you build?</h2>
+    <div class="jumbotron jumbotron-fluid background-image full-height" style="background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/images/{{ site.homepage_banner_image }});">
+        <h1 class="display-1 text-light">{{ site.splash_title }}</h1>
+        <h2 class=" text-light">{{ site.splash_subtitle }}</h2>
         <div id="socials" class="row justify-content-center">
             {% for social in site.socials %}
                 <a href="{{ social.url }}">

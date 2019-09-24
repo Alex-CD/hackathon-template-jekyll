@@ -2,7 +2,15 @@
 repository: royalhackaway/royalhackaway.github.io
 include: ["index.html", "_pages"]
 
+
+# Homepage settings
+splash_title: 'Organisation name'
+splash_subtitle: 'This is a subtitle'
+homepage_banner_image: photos/home_banner.jpg
 display_ad: true
+
+
+
 
 footer-description: "Royal Hackaway is a student-run group that hosts hackathons at Royal Holloway, University of London."
 
