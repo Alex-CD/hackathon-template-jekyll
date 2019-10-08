@@ -1,6 +1,6 @@
 ---
 repository: royalhackaway/royalhackaway.github.io
-include: ["index.html", "_pages"]
+include: ["index.html", "_events",]
 
 
 # Homepage settings
@@ -14,6 +14,8 @@ display_ad: true
 
 footer-description: "Royal Hackaway is a student-run group that hosts hackathons at Royal Holloway, University of London."
 
+
+# Links for the navbar
 navs:
   -
     name: Home
@@ -25,6 +27,8 @@ navs:
     name: Sponsor us
     link: "/assets/pdf/sponsordeck.pdf"
 
+
+# Social media links included on the splash page
 socials:
   -
     icon: "facebook-white.svg"
