@@ -1,6 +1,6 @@
 # Hackathon Jekyll Template
 
-[Check out the demo site](https://alex-cd.github.io/divide-and-concur/)
+[Check out the demo site](https://alex-cd.github.io/hackathon-template-jekyll/)
 
 ### What it is
 
