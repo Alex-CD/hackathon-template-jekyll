@@ -1,10 +1,17 @@
-# royalhackaway.com
-RoyalHackaway Website
+# Hackathon Jekyll Template
 
-PRs and issues welcome :)
+[Check out the demo site](https://alex-cd.github.io/divide-and-concur/)
 
-# Contributing
+### What it is
 
-Please check open issues and PRs before working on anything or opening a new one!
+A starting point for hackathon organisers to build websites for their events.
 
-Tests are run by Circle CI. Please ensure you have run `bundle exec htmlproofer ./_site --check-html --disable-external` with no errors before opening a PR. PRs with checks that fail **will not be merged**.
+Plop in some event files, and this jekyll site will do the rest.
+
+
+### What it's built with
+
+Written in: HTML, Javascript, CSS
+(_I don't think I need to link these..._)
+
+Uses: [Jekyll](https://jekyllrb.com/),[SASS](https://sass-lang.com/)
