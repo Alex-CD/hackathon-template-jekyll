@@ -1,36 +1,43 @@
 ---
+
+# Jekyll
+layout: event
+
+# Event info
 name: ""
-is-public: false
-is-over: false
+location: ""
+
+is-public: false # Makes this event visible in events list
 
 start: "2099-01-01T12:00:00+00:00"
 end: "2001-01-01T12:00:00+00:00"
 
 short-description: ""
+display-date: ""
+
 full-description: ""
 
-# Used for styling
+# Styling
 color: "#FFFFFF"
-display-date: ""
-layout: event
-location: ""
-jumbotron-image:
-jumbotron-image-adjust: "rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)"
 
+
+# Jumbotron
 display-logo: false
 small-logo: "rh-small.svg"
 logo-width: 1
+jumbotron-image: ""
+jumbotron-image-adjust: "rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)"
 
-show-map: false
-map-src: "https://maps.google.com/maps?q=windsor%20building%2C%20royal%20holloway%20university%20of%20london&t=&z=13&ie=UTF8&iwloc=&output=embed"
-
-show-floor-plan: false
-venue-floor-plan: ""
 
 show-ticket-button: true
 disable-button: true
 tickets: "https://tickets.royalhackaway.com/"
 ticket-button-text: "RSVP"
+
+# Event page content
+
+show-map: false
+map-src: "https://maps.google.com/maps?q=windsor%20building%2C%20royal%20holloway%20university%20of%20london&t=&z=13&ie=UTF8&iwloc=&output=embed"
 
 show-wifi-details: false
 internet:
@@ -92,19 +99,18 @@ schedule:
 
 show-sponsors-list: false
 sponsors:
-    - 
+    -
       Name: "Example"
       Link: "https://www.example.com/"
       Icon: ""
       Colour: #A60000
-    - 
+    -
       Name: "Example2"
       Link: "https://www.example.com"
       Icon: ""
       Colour: #A60000
-      
----
 
+---
 
 
 <section id="event-extra-content" style="background-color: {{ page.color }}">
