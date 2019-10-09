@@ -2,13 +2,11 @@
 repository: royalhackaway/royalhackaway.github.io
 include: ["index.html", "_events",]
 
-
 # Homepage settings
 splash_title: 'Organisation name'
 splash_subtitle: 'This is a subtitle'
 homepage_banner_image: photos/home_banner.jpg
 display_ad: true
-
 
 
 
