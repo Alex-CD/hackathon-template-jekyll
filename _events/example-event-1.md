@@ -22,10 +22,10 @@ color: "#F48B22"
 
 
 # Jumbotron
-display-logo: false
+display-logo: true
 small-logo: "rh-small.svg"
 logo-width: 1
-jumbotron-image: ""
+jumbotron-image: "mc125-hackathon.png"
 jumbotron-image-adjust: "rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)"
 
 
