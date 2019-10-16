@@ -1,11 +1,11 @@
 <section class="full-height" id="top">
-    <div class="jumbotron jumbotron-fluid background-image full-height" style="background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url({{ site.baseurl }}assets/images/{{ site.homepage_banner_image }});">
+    <div class="jumbotron jumbotron-fluid background-image full-height" style="background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url( {{ "/assets/images/" | relative_url }}{{ site.homepage_banner_image }});">
         <h1 class="display-1 text-light">{{ site.splash_title }}</h1>
         <h2 class=" text-light">{{ site.splash_subtitle }}</h2>
         <div id="socials" class="row justify-content-center">
             {% for social in site.socials %}
                 <a href="{{ social.url }}">
-                    <img class="social-icon img-fluid" alt="{{ social.icon }}" src="{{ site.baseurl }}assets/images/social_icons/{{ social.icon }}" />
+                    <img class="social-icon img-fluid" alt="{{ social.icon }}" src="{{ "/assets/images/social_icons/" | relative_url }}{{ social.icon }}" />
                 </a>
             {% endfor %}
         </div>
