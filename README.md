@@ -2,6 +2,9 @@
 
 [Check out the demo site](https://alex-cd.github.io/hackathon-template-jekyll/)
 
+
+Forked from [the Royal Hackaway website](https://github.com/royalhackaway/royalhackaway.github.io).
+
 ### What it is
 
 A starting point for hackathon organisers to build websites for their events.
